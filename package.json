@@ -1,15 +1,15 @@
 {
-  "homepage": "http://shinhu91.github.io/hu-log-client",
+  "homepage": "http://shinhu91.github.io/resume",
   "name": "client",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export -o build/",
+    "build": "next build && next export -o build/ && touch ./build/.nojekyll",
     "start": "next start",
     "lint": "next lint",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -b master -d build"
+    "deploy": "gh-pages -b main -d build"
   },
   "dependencies": {
     "@emotion/react": "^11.10.0",
