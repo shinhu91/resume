@@ -10,9 +10,7 @@ const nextConfig = {
     disableStaticImages: true,
   },
   assetPrefix:
-    process.env.NODE_ENV === "production"
-      ? "https://shinhu91.github.io/resume"
-      : "",
+    process.env.NODE_ENV === "production" ? "https://shinhu91.github.io/" : "",
 };
 
 module.exports = withImages(nextConfig);
