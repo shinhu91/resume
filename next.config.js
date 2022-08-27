@@ -11,7 +11,7 @@ const nextConfig = {
   },
   assetPrefix:
     process.env.NODE_ENV === "production"
-      ? "http://shinhu91.github.io/resume"
+      ? "https://shinhu91.github.io/resume"
       : "",
 };
 
