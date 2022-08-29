@@ -3,13 +3,15 @@ import { css } from "@emotion/react";
 import SectionElement from "components/resume/SectionElement";
 import Career from "components/resume/Career";
 import Education from "components/resume/Education";
-import Skills from "components/resume/Skills";
+// import Skills from "components/resume/Skills";
 import Awards from "components/resume/Awards";
 import UserLink from "components/resume/UserLink";
+import { mqMaxWidth, mqMinWidth } from "styles/breakpoint";
 
 const styles = {
   wrapper: css`
-    padding: 30px 5rem;
+    /* padding: 30px 5rem; */
+    margin: auto;
     background-color: #fff;
     &::before {
       position: fixed;
@@ -27,6 +29,9 @@ const styles = {
   selfIntroduce: css`
     h1 {
       margin: 0.67em 0;
+      ${mqMaxWidth[2]} {
+        font-size: 3rem;
+      }
     }
     p {
       font-size: 2rem;

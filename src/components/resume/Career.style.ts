@@ -1,9 +1,13 @@
 import { css } from "@emotion/react";
+import { mqMaxWidth } from "styles/breakpoint";
 
 const styles = {
   wrapper: css`
     display: flex;
     margin-bottom: 3rem;
+    ${mqMaxWidth[2]} {
+      flex-direction: column;
+    }
     &:not(:last-of-type) {
       border-bottom: 1px solid #eee;
     }
@@ -22,7 +26,7 @@ const styles = {
   content: css`
     flex: 1;
     ul {
-      margin-top: 0;
+      margin-top: 0; 
       li {
         list-style: none;
         margin-bottom: 4rem;
