@@ -5,11 +5,11 @@ const nextConfig = {
     webpack: (config) => config,
 
     reactStrictMode: true,
-    swcMinify: true
+    swcMinify: true,
     // images: {
     //     disableStaticImages: true
     // }
-    // assetPrefix: process.env.NODE_ENV === "production" ? "./" : "./"
+    assetPrefix: process.env.NODE_ENV === "production" ? "./" : "./"
 };
 
 module.exports = withImages(nextConfig);
