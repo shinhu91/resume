@@ -12,6 +12,10 @@ const UserLink = () => {
         <FontAwesomeIcon icon={["fas", "envelope"]} />
         <span>shinhu91@gmail.com</span>
       </div>
+      <div css={styles.wrapper}>
+        <FontAwesomeIcon icon={["fas", "phone"]} />
+        <span>010-2560-9889</span>
+      </div>
     </>
   );
 };

@@ -12,14 +12,14 @@ const Career = () => {
         <div css={styles.content}>
           <ul>
             <li>
-              <h4>Happytalk 웹채팅</h4>
+              <h3>Happytalk 웹채팅</h3>
               <h5>Description</h5>
               <p>사용자의 채팅 및 채팅창 커스텀</p>
               <h5>Skills</h5>
               <p>Javascript, React, Next.js, emotion, TypeScript, Rollup</p>
             </li>
             <li>
-              <h4>상담콜</h4>
+              <h3>상담콜</h3>
               <h5>Description</h5>
               <p>ARS 상담 서비스</p>
               <h5>Skills</h5>
@@ -37,7 +37,7 @@ const Career = () => {
         <div css={styles.content}>
           <ul>
             <li>
-              <h4>eyeCloudXOAR</h4>
+              <h3>eyeCloudXOAR</h3>
               <h5>Description</h5>
               <p>
                 표준화된 보안 대응 프로세스에 따라, 각종 보안 위협에 자동으로
@@ -47,28 +47,28 @@ const Career = () => {
               <p>Java, Jsp, CSS, Html, Javascript, Spring, Jenkins</p>
             </li>
             <li>
-              <h4>eyeCloudAI</h4>
+              <h3>eyeCloudAI</h3>
               <h5>Description</h5>
               <p>국가정보관리원 내의 AI 기술로 탐지된 데이터 시각화</p>
               <h5>Skills</h5>
               <p>Java, Jsp, CSS, Html, Javascript, Spring, Jenkins</p>
             </li>
             <li>
-              <h4>Intelligence Center</h4>
+              <h3>Intelligence Center</h3>
               <h5>Description</h5>
               <p>사내 Data 적재 및 보관, 업무 프로세스 진행 솔루션</p>
               <h5>Skills</h5>
               <p>Java, Jsp, CSS, Html, Javascript, Spring, Jenkins</p>
             </li>
             <li>
-              <h4>Threat Intelligence</h4>
+              <h3>Threat Intelligence</h3>
               <h5>Description</h5>
               <p>위협정보 분석 및 시각화 솔루션</p>
               <h5>Skills</h5>
               <p>Java, Jsp, CSS, Html, Javascript, Spring, Jenkins</p>
             </li>
             <li>
-              <h4>BlueBird</h4>
+              <h3>BlueBird</h3>
               <p>로그 보안관제 솔루션</p>
               <h5>Skills</h5>
               <p>Java, Jsp, CSS, Html, Javascript, Spring, Jenkins</p>

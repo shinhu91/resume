@@ -2,12 +2,12 @@ import { css } from "@emotion/react";
 
 const global = css`
   h1 {
-    font-size: 5rem;
+    font-size: 3rem;
     line-height: 1.1;
     font-weight: bold;
   }
   h2 {
-    font-size: 4rem;
+    font-size: 1.8rem;
     font-weight: bold;
     display: block;
     margin-block-start: 0.83em;
@@ -16,7 +16,7 @@ const global = css`
     margin-inline-end: 0px;
   }
   h3 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-weight: bold;
     display: block;
     margin-block-start: 1em;
@@ -25,7 +25,7 @@ const global = css`
     margin-inline-end: 0px;
   }
   h4 {
-    font-size: 2rem;
+    font-size: 1.3rem;
     font-weight: bold;
     display: block;
     margin-block-start: 1.33em;
