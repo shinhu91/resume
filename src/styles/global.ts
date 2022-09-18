@@ -34,8 +34,7 @@ const global = css`
     margin-inline-end: 0px;
   }
   h5 {
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-size: 1.4rem;
     display: block;
     margin-block-start: 1.33em;
     margin-block-end: 1.33em;

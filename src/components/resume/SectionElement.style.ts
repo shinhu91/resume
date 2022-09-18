@@ -6,6 +6,7 @@ const styles = {
     flex-direction: column;
     padding: 10px;
     border-bottom: 1px solid #eee;
+    /* page-break-after: always; */
     h2 {
       margin: 4rem 0 4rem;
     }
